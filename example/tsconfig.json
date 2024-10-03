@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "get-daily-word": ["../src/index"],
+      "get-daily-word/*": ["../src/*"]
+    }
+  }
+}
